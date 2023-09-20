@@ -31,13 +31,19 @@ class Rectangle():
             return False
 
 
-
     # Create the "area" method
     #
     # It first verifies inputs and return "Invalid input" if they are invalid.
     # Otherwise, it returns the area of the rectangle.
 
-    # YOUR CODE HERE
+    def area(self):
+        if verify_input():
+            return "Invalid input"
+        else:
+            total = 0
+            total = self.width * self.height
+            return total
+
 
 
 
